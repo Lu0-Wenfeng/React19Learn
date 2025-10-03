@@ -1,9 +1,9 @@
 import {
-  Route,
   createBrowserRouter,
   createRoutesFromElements,
+  Route,
   RouterProvider,
-} from 'react-router-dom';
+} from "react-router-dom";
 
 // import { UseExample2 } from './components/useExample2/Posts';
 // import { UseExample3 } from './components/useExample3/Message';
@@ -14,18 +14,19 @@ import {
 // import AddToCartForm from './components/useFormStateExample/AddToCartForm';
 // import { UseOptimisticExample } from './components/useOptimisticExample/Message';
 // import { UseTransitionExample } from './components/useTransitionExample/Tabs';
-import HomePage from './components/HomePage';
-import { UseExample1 } from './components/useExample1/Joke';
-import MainLayout from './layouts/MainLayout';
+import HomePage from "./components/HomePage";
+import { UseExample1 } from "./components/useExample1/Joke";
+import { UseExample2 } from "./components/useExample2/Posts";
+import MainLayout from "./layouts/MainLayout";
 
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<MainLayout />}>
+      <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path='use-example-1' element={<UseExample1 />} />
-        {/* <Route path='use-example-2' element={<UseExample2 />} />
-        <Route path='use-example-3' element={<UseExample3 />} />
+        <Route path="use-example-1" element={<UseExample1 />} />
+        <Route path="use-example-2" element={<UseExample2 />} />
+        {/*<Route path='use-example-3' element={<UseExample3 />} />
         <Route path='use-example-context' element={<UseExampleContext />} />
         <Route path='action-example-1' element={<ActionExample1 />} />
         <Route path='action-example-2' element={<ActionExample2 />} />
