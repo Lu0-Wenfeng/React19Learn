@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
+import { ActionExample1 } from "./components/actionExample1/Posts";
 import HomePage from "./components/HomePage";
 import { UseExample1 } from "./components/useExample1/Joke";
 import { UseExample2 } from "./components/useExample2/Posts";
@@ -26,8 +27,8 @@ const App = () => {
         <Route path="use-example-2" element={<UseExample2 />} />
         <Route path="use-example-3" element={<UseExample3 />} />
         <Route path="use-example-context" element={<UseExampleContext />} />
-        <Route path='action-example-1' element={<ActionExample1 />} />
-        <Route path='action-example-2' element={<ActionExample2 />} />
+        <Route path="action-example-1" element={<ActionExample1 />} />
+        {/*<Route path='action-example-2' element={<ActionExample2 />} />
         <Route
           path='useformstatus-example'
           element={<UseFormStatusExample />}
