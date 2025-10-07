@@ -1,13 +1,15 @@
 {
-  "name": "react-19-bun-starter",
+  "name": "react-19-learn",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://lu0-wenfeng.github.io/React19Learn/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "bun run build && touch dist/.nojekyll"
   },
   "dependencies": {
     "react": "^19.1.1",
