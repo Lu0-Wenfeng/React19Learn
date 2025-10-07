@@ -11,7 +11,7 @@ const Header = () => {
         {!isHomePage && (
           <button
             onClick={() => navigate("/")}
-            className="absolute left-0 top-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-500 active:bg-blue-800 px-3 py-1 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-700 flex items-center gap-2"
+            className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 bg-blue-600 hover:bg-blue-500 active:bg-blue-800 px-3 py-1 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-700 flex items-center gap-2"
             aria-label="Back to home"
           >
             <svg
