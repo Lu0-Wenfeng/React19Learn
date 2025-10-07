@@ -2,6 +2,8 @@
 
 A comprehensive learning playground showcasing **React 19** features and hooks with interactive examples. Built with React 19, TypeScript, Vite, Bun, and Tailwind CSS.
 
+The repo is based on [Exploring React 19 Features - use() Hook, Actions & More](https://youtu.be/EPaLg4U_K1o?si=4ZnDsnXcefe67c7R) and [the repo](https://github.com/bradtraversy/react-19-playground) from Traversy Media.
+
 [![React](https://img.shields.io/badge/React-19.1.1-blue.svg)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue.svg)](https://www.typescriptlang.org/)
 [![Bun](https://img.shields.io/badge/Bun-Latest-orange.svg)](https://bun.sh/)
@@ -19,7 +21,6 @@ A comprehensive learning playground showcasing **React 19** features and hooks w
 - [Technologies Used](#-technologies-used)
 - [Scripts](#-scripts)
 - [Learn More](#-learn-more)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## ✨ Features
@@ -35,9 +36,7 @@ A comprehensive learning playground showcasing **React 19** features and hooks w
 
 ## 🌐 Live Demo
 
-**Coming Soon!** This project will be deployed to GitHub Pages.
-
-> Once deployed, you can explore all examples at: `https://lu0-wenfeng.github.io/React19Learn/`
+This project will be deployed to GitHub Pages at: `https://lu0-wenfeng.github.io/React19Learn/`
 
 ## 🎓 React 19 Features Covered
 
@@ -248,5 +247,3 @@ npm run lint
 ---
 
 **Happy Learning! 🎉**
-
-Built with ❤️ and React 19
