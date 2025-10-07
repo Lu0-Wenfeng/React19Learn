@@ -14,8 +14,8 @@ import { UseExample3 } from "./components/useExample3/Message";
 import { UseExampleContext } from "./components/useExampleContext/Theme";
 import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
 import { UseFormStatusExample } from "./components/useFormStatusExample/Posts";
-// import { UseOptimisticExample } from './components/useOptimisticExample/Message';
-// import { UseTransitionExample } from './components/useTransitionExample/Tabs';
+import { UseOptimisticExample } from "./components/useOptimisticExample/Message";
+import { UseTransitionExample } from "./components/useTransitionExample/Tabs";
 import MainLayout from "./layouts/MainLayout";
 
 const App = () => {
@@ -49,15 +49,16 @@ const App = () => {
           path="useformstatus-example"
           element={<UseFormStatusExample />}
         />
-        {/*
+
         <Route
-          path='useoptimistic-example'
+          path="useoptimistic-example"
           element={<UseOptimisticExample />}
         />
+
         <Route
-          path='usetransition-example'
+          path="usetransition-example"
           element={<UseTransitionExample />}
-        /> */}
+        />
       </Route>
     )
   );
