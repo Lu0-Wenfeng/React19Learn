@@ -60,7 +60,10 @@ const App = () => {
           element={<UseTransitionExample />}
         />
       </Route>
-    )
+    ),
+    {
+      basename: import.meta.env.BASE_URL,
+    }
   );
 
   return <RouterProvider router={router} />;
