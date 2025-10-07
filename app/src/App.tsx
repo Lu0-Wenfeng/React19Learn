@@ -6,14 +6,13 @@ import {
 } from "react-router-dom";
 
 import { ActionExample1 } from "./components/actionExample1/Posts";
+import { ActionExample2 } from "./components/actionExample2/ShoppingCart";
 import HomePage from "./components/HomePage";
 import { UseExample1 } from "./components/useExample1/Joke";
 import { UseExample2 } from "./components/useExample2/Posts";
 import { UseExample3 } from "./components/useExample3/Message";
 import { UseExampleContext } from "./components/useExampleContext/Theme";
-import { ActionExample2 } from './components/actionExample2/ShoppingCart';
-// import { UseFormStatusExample } from './components/useFormStatusExample/Posts';
-// import AddToCartForm from './components/useFormStateExample/AddToCartForm';
+import AddToCartForm from "./components/useFormStateExample/AddToCartForm";
 // import { UseOptimisticExample } from './components/useOptimisticExample/Message';
 // import { UseTransitionExample } from './components/useTransitionExample/Tabs';
 import MainLayout from "./layouts/MainLayout";
@@ -28,25 +27,26 @@ const App = () => {
         <Route path="use-example-3" element={<UseExample3 />} />
         <Route path="use-example-context" element={<UseExampleContext />} />
         <Route path="action-example-1" element={<ActionExample1 />} />
-        <Route path='action-example-2' element={<ActionExample2 />} />
-        {/*<Route
-          path='useformstatus-example'
-          element={<UseFormStatusExample />}
-        />
+        <Route path="action-example-2" element={<ActionExample2 />} />
         <Route
-          path='useformstate-example'
+          path="useactionstate-example"
           element={
             <>
               <AddToCartForm
-                itemID='1'
-                itemTitle='JavaScript: The Definitive Guide'
+                itemID="1"
+                itemTitle="JavaScript: The Definitive Guide"
               />
               <AddToCartForm
-                itemID='2'
-                itemTitle='JavaScript: The Good Parts'
+                itemID="2"
+                itemTitle="JavaScript: The Good Parts"
               />
             </>
           }
+        />
+        {/*
+        <Route
+          path='useformstatus-example'
+          element={<UseFormStatusExample />}
         />
         <Route
           path='useoptimistic-example'

@@ -47,10 +47,10 @@ const examples: Example[] = [
     path: "/useformstatus-example",
   },
   {
-    title: "useFormState Example",
+    title: "useActionState Example",
     description:
-      "Use the useFormState hook to show specific messages for cart items",
-    path: "/useformstate-example",
+      "Use the useActionState hook to show specific messages for cart items",
+    path: "/useactionstate-example",
   },
   {
     title: "useOptimistic Example",
