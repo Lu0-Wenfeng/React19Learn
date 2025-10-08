@@ -36,7 +36,7 @@ The repo is based on [Exploring React 19 Features - use() Hook, Actions & More](
 
 ## 🌐 Live Demo
 
-This project will be deployed to GitHub Pages at: `https://lu0-wenfeng.github.io/React19Learn/`
+This project will be deployed to GitHub Pages at: https://lu0-wenfeng.github.io/React19Learn/
 
 ## 🎓 React 19 Features Covered
 
